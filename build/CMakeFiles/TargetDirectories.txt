@@ -1,7 +1,0 @@
-/home/tromac-test/Documents/store/vision/vision_gimbal/build/CMakeFiles/vision_gimbal.dir
-/home/tromac-test/Documents/store/vision/vision_gimbal/build/CMakeFiles/hsv_tuner.dir
-/home/tromac-test/Documents/store/vision/vision_gimbal/build/CMakeFiles/edit_cache.dir
-/home/tromac-test/Documents/store/vision/vision_gimbal/build/CMakeFiles/rebuild_cache.dir
-/home/tromac-test/Documents/store/vision/vision_gimbal/build/Serial/CMakeFiles/tromac_serial.dir
-/home/tromac-test/Documents/store/vision/vision_gimbal/build/Serial/CMakeFiles/edit_cache.dir
-/home/tromac-test/Documents/store/vision/vision_gimbal/build/Serial/CMakeFiles/rebuild_cache.dir
