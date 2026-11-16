@@ -5,8 +5,8 @@
 
 struct AlgoParams {
     // 恢复你之前调好的完美参数
-    cv::Scalar blue_low = cv::Scalar(80, 60, 70); 
-    cv::Scalar blue_high = cv::Scalar(95, 255, 255);
+    cv::Scalar blue_low = cv::Scalar(100, 135, 70); 
+    cv::Scalar blue_high = cv::Scalar(120, 255, 255);
     
     // 红色
     cv::Scalar red_low1 = cv::Scalar(0, 50, 50);

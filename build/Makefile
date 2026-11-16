@@ -179,6 +179,78 @@ CircleRecognition.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_gimbal.dir/build.make CMakeFiles/vision_gimbal.dir/CircleRecognition.cpp.s
 .PHONY : CircleRecognition.cpp.s
 
+DelayAndFire.o: DelayAndFire.cpp.o
+.PHONY : DelayAndFire.o
+
+# target to build an object file
+DelayAndFire.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_gimbal.dir/build.make CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o
+.PHONY : DelayAndFire.cpp.o
+
+DelayAndFire.i: DelayAndFire.cpp.i
+.PHONY : DelayAndFire.i
+
+# target to preprocess a source file
+DelayAndFire.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_gimbal.dir/build.make CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.i
+.PHONY : DelayAndFire.cpp.i
+
+DelayAndFire.s: DelayAndFire.cpp.s
+.PHONY : DelayAndFire.s
+
+# target to generate assembly for a file
+DelayAndFire.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_gimbal.dir/build.make CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.s
+.PHONY : DelayAndFire.cpp.s
+
+FittingCircle.o: FittingCircle.cpp.o
+.PHONY : FittingCircle.o
+
+# target to build an object file
+FittingCircle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_gimbal.dir/build.make CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o
+.PHONY : FittingCircle.cpp.o
+
+FittingCircle.i: FittingCircle.cpp.i
+.PHONY : FittingCircle.i
+
+# target to preprocess a source file
+FittingCircle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_gimbal.dir/build.make CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.i
+.PHONY : FittingCircle.cpp.i
+
+FittingCircle.s: FittingCircle.cpp.s
+.PHONY : FittingCircle.s
+
+# target to generate assembly for a file
+FittingCircle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_gimbal.dir/build.make CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.s
+.PHONY : FittingCircle.cpp.s
+
+PixelToWorld.o: PixelToWorld.cpp.o
+.PHONY : PixelToWorld.o
+
+# target to build an object file
+PixelToWorld.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_gimbal.dir/build.make CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o
+.PHONY : PixelToWorld.cpp.o
+
+PixelToWorld.i: PixelToWorld.cpp.i
+.PHONY : PixelToWorld.i
+
+# target to preprocess a source file
+PixelToWorld.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_gimbal.dir/build.make CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.i
+.PHONY : PixelToWorld.cpp.i
+
+PixelToWorld.s: PixelToWorld.cpp.s
+.PHONY : PixelToWorld.s
+
+# target to generate assembly for a file
+PixelToWorld.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vision_gimbal.dir/build.make CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.s
+.PHONY : PixelToWorld.cpp.s
+
 hsv_tuner.o: hsv_tuner.cpp.o
 .PHONY : hsv_tuner.o
 
@@ -241,6 +313,15 @@ help:
 	@echo "... CircleRecognition.o"
 	@echo "... CircleRecognition.i"
 	@echo "... CircleRecognition.s"
+	@echo "... DelayAndFire.o"
+	@echo "... DelayAndFire.i"
+	@echo "... DelayAndFire.s"
+	@echo "... FittingCircle.o"
+	@echo "... FittingCircle.i"
+	@echo "... FittingCircle.s"
+	@echo "... PixelToWorld.o"
+	@echo "... PixelToWorld.i"
+	@echo "... PixelToWorld.s"
 	@echo "... hsv_tuner.o"
 	@echo "... hsv_tuner.i"
 	@echo "... hsv_tuner.s"

@@ -23,7 +23,6 @@ void onMouse(int event, int x, int y, int flags, void* userdata) {
 }
 
 int main() {
-    // 注意：如果你的相机不是 0，请修改这里
     VideoCapture cap(0, CAP_V4L2);
     if (!cap.isOpened()) {
         cerr << "相机打不开！" << endl;
@@ -35,7 +34,6 @@ int main() {
     namedWindow("Camera", WINDOW_AUTOSIZE);
     namedWindow("Mask", WINDOW_AUTOSIZE);
 
-    // 创建滑动条
     createTrackbar("H Min", "Mask", &hmin, 179);
     createTrackbar("H Max", "Mask", &hmax, 179);
     createTrackbar("S Min", "Mask", &smin, 255);
@@ -43,23 +41,18 @@ int main() {
     createTrackbar("V Min", "Mask", &vmin, 255);
     createTrackbar("V Max", "Mask", &vmax, 255);
 
-    // 绑定鼠标事件
     setMouseCallback("Camera", onMouse);
 
     while (true) {
         cap >> img;
         if (img.empty()) break;
 
-        cvtColor(img, hsv, COLOR_BGR2HSV);add_executable(hsv_tuner hsv_tuner.cpp)
-target_include_directories(hsv_tuner PRIVATE ${OpenCV_INCLUDE_DIRS})
-target_link_libraries(hsv_tuner PRIVATE ${OpenCV_LIBS})
+        cvtColor(img, hsv, COLOR_BGR2HSV);
 
-        // 根据滑动条的值生成 Mask
         Scalar lower(hmin, smin, vmin);
         Scalar upper(hmax, smax, vmax);
         inRange(hsv, lower, upper, mask);
 
-        // 形态学去噪
         Mat kernel = getStructuringElement(MORPH_RECT, Size(5, 5));
         morphologyEx(mask, mask, MORPH_OPEN, kernel);
         morphologyEx(mask, mask, MORPH_CLOSE, kernel);
@@ -68,7 +61,7 @@ target_link_libraries(hsv_tuner PRIVATE ${OpenCV_LIBS})
         imshow("Mask", mask);
 
         int key = waitKey(10);
-        if (key == 27) break; // 按 ESC 退出
+        if (key == 27) break;
     }
 
     return 0;

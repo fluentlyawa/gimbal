@@ -97,25 +97,76 @@ CMakeFiles/vision_gimbal.dir/CircleRecognition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision_gimbal.dir/CircleRecognition.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tromac-test/Documents/store/vision/vision_gimbal/CircleRecognition.cpp -o CMakeFiles/vision_gimbal.dir/CircleRecognition.cpp.s
 
+CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o: CMakeFiles/vision_gimbal.dir/flags.make
+CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o: ../PixelToWorld.cpp
+CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o: CMakeFiles/vision_gimbal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tromac-test/Documents/store/vision/vision_gimbal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o -MF CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o.d -o CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o -c /home/tromac-test/Documents/store/vision/vision_gimbal/PixelToWorld.cpp
+
+CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tromac-test/Documents/store/vision/vision_gimbal/PixelToWorld.cpp > CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.i
+
+CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tromac-test/Documents/store/vision/vision_gimbal/PixelToWorld.cpp -o CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.s
+
+CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o: CMakeFiles/vision_gimbal.dir/flags.make
+CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o: ../DelayAndFire.cpp
+CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o: CMakeFiles/vision_gimbal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tromac-test/Documents/store/vision/vision_gimbal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o -MF CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o.d -o CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o -c /home/tromac-test/Documents/store/vision/vision_gimbal/DelayAndFire.cpp
+
+CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tromac-test/Documents/store/vision/vision_gimbal/DelayAndFire.cpp > CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.i
+
+CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tromac-test/Documents/store/vision/vision_gimbal/DelayAndFire.cpp -o CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.s
+
+CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o: CMakeFiles/vision_gimbal.dir/flags.make
+CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o: ../FittingCircle.cpp
+CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o: CMakeFiles/vision_gimbal.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tromac-test/Documents/store/vision/vision_gimbal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o -MF CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o.d -o CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o -c /home/tromac-test/Documents/store/vision/vision_gimbal/FittingCircle.cpp
+
+CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tromac-test/Documents/store/vision/vision_gimbal/FittingCircle.cpp > CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.i
+
+CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tromac-test/Documents/store/vision/vision_gimbal/FittingCircle.cpp -o CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.s
+
 # Object files for target vision_gimbal
 vision_gimbal_OBJECTS = \
 "CMakeFiles/vision_gimbal.dir/vision_gimbal.cpp.o" \
-"CMakeFiles/vision_gimbal.dir/CircleRecognition.cpp.o"
+"CMakeFiles/vision_gimbal.dir/CircleRecognition.cpp.o" \
+"CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o" \
+"CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o" \
+"CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o"
 
 # External object files for target vision_gimbal
 vision_gimbal_EXTERNAL_OBJECTS =
 
 vision_gimbal: CMakeFiles/vision_gimbal.dir/vision_gimbal.cpp.o
 vision_gimbal: CMakeFiles/vision_gimbal.dir/CircleRecognition.cpp.o
+vision_gimbal: CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o
+vision_gimbal: CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o
+vision_gimbal: CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o
 vision_gimbal: CMakeFiles/vision_gimbal.dir/build.make
 vision_gimbal: /usr/local/lib/libopencv_highgui.so.4.6.0
 vision_gimbal: /usr/local/lib/libopencv_videoio.so.4.6.0
+vision_gimbal: /usr/local/lib/libopencv_calib3d.so.4.6.0
 vision_gimbal: Serial/libtromac_serial.a
 vision_gimbal: /usr/local/lib/libopencv_imgcodecs.so.4.6.0
+vision_gimbal: /usr/local/lib/libopencv_features2d.so.4.6.0
 vision_gimbal: /usr/local/lib/libopencv_imgproc.so.4.6.0
+vision_gimbal: /usr/local/lib/libopencv_flann.so.4.6.0
 vision_gimbal: /usr/local/lib/libopencv_core.so.4.6.0
 vision_gimbal: CMakeFiles/vision_gimbal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tromac-test/Documents/store/vision/vision_gimbal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable vision_gimbal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tromac-test/Documents/store/vision/vision_gimbal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable vision_gimbal"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vision_gimbal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

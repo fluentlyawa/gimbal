@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/tromac-test/Documents/store/vision/vision_gimbal/CircleRecognition.cpp" "CMakeFiles/vision_gimbal.dir/CircleRecognition.cpp.o" "gcc" "CMakeFiles/vision_gimbal.dir/CircleRecognition.cpp.o.d"
+  "/home/tromac-test/Documents/store/vision/vision_gimbal/DelayAndFire.cpp" "CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o" "gcc" "CMakeFiles/vision_gimbal.dir/DelayAndFire.cpp.o.d"
+  "/home/tromac-test/Documents/store/vision/vision_gimbal/FittingCircle.cpp" "CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o" "gcc" "CMakeFiles/vision_gimbal.dir/FittingCircle.cpp.o.d"
+  "/home/tromac-test/Documents/store/vision/vision_gimbal/PixelToWorld.cpp" "CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o" "gcc" "CMakeFiles/vision_gimbal.dir/PixelToWorld.cpp.o.d"
   "/home/tromac-test/Documents/store/vision/vision_gimbal/vision_gimbal.cpp" "CMakeFiles/vision_gimbal.dir/vision_gimbal.cpp.o" "gcc" "CMakeFiles/vision_gimbal.dir/vision_gimbal.cpp.o.d"
   )
 
